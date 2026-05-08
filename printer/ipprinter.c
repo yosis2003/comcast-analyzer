@@ -64,7 +64,7 @@ int main (int argc, char *argv[]){
 
 
 
-    // printf("canonical name: %s \n", servinfo->ai_canonname);
+    printf("canonical name: %s \n", servinfo->ai_canonname);
 
     
 

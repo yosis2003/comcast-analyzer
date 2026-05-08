@@ -22,7 +22,7 @@ CFLAGS = -Wall -Wextra -std=gnu11
 # In this section, you list the files that are part of the project.
 # If you add/change names of source files, here is where you
 # edit the Makefile.
-SOURCES = main.c
+SOURCES = $(shell find . -name "*.c")
 OBJECTS = $(SOURCES:.c=.o)
 TARGET = main
 
